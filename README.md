@@ -223,30 +223,27 @@ Classification of Arrhythmia [ECG DATA]/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/shsarv/Machine-Learning-Projects.git
-cd "Machine-Learning-Projects/Classification of Arrhythmia [ECG DATA]"
+git clone https://github.com/Kushagramishra458/Classification-of-Arrhythmia-with-ECG-Data-.git
+cd Classification-of-Arrhythmia-with-ECG-Data-
 ```
 
-### 2. Set up environment
+### 2. Create and activate a virtual environment
 
 ```bash
 python -m venv venv
-source venv/bin/activate        # Linux / macOS
-venv\Scripts\activate           # Windows
 
-pip install -r requirements.txt
+# Windows
+venv\Scripts\activate
+
+# Linux / macOS
+source venv/bin/activate
 ```
 
 ### 3. Run the notebooks in order
 
 ```bash
-# Step 1 — Preprocess the data
 jupyter notebook "Preprocessing and EDA/Data preprocessing.ipynb"
-
-# Step 2 — Explore the data
 jupyter notebook "Preprocessing and EDA/EDA.ipynb"
-
-# Step 3 — Train and evaluate all models
 jupyter notebook "final with pca.ipynb"
 ```
 
